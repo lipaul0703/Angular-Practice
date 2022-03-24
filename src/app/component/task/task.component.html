@@ -1,0 +1,8 @@
+<div class="containner">
+  <h2>{{taskItem.id}}. {{taskItem.text}}</h2>
+  <app-delete-task-btn
+    (click)="deleteTaskBtn(taskItem)"
+  ></app-delete-task-btn>
+</div>
+
+<p>{{taskItem.reminder}}</p>
